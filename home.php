@@ -74,7 +74,7 @@ include 'components/wishlist_cart.php';
             <img src="./images/titan-watch.png" alt="">
          </div>
          <div class="content">
-            <span>Upto 25% off on</span>
+            <span>Upto 0% off on</span>
             <h3>Latest Titan Watches</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
