@@ -38,6 +38,8 @@ if(isset($_POST['submit'])){
 
    <link rel="stylesheet" href="../css/admin_style.css">
 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -58,7 +60,7 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>login now</h3>
-      <p>default username = <span>admin</span> & password = <span>111</span></p>
+      <!-- <p>default username = <span>admin</span> & password = <span>111</span></p> -->
       <input type="text" name="name" required placeholder="enter your username" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="password" name="pass" required placeholder="enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="login now" class="btn" name="submit">
@@ -66,5 +68,7 @@ if(isset($_POST['submit'])){
 
 </section>
    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

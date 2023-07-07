@@ -15,15 +15,34 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Shopie<span>.</span></a>
+      <a href="home.php" class="logo">Ghadi Ghadi<span></span></a>
 
-      <nav class="navbar">
-         <a href="home.php">home</a>
-         <a href="about.php">about</a>
-         <a href="orders.php">orders</a>
-         <a href="shop.php">shop</a>
-         <a href="contact.php">contact</a>
-      </nav>
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.php">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orders.php">Orders</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      
 
       <div class="icons">
          <?php

@@ -30,6 +30,10 @@ include 'components/wishlist_cart.php';
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+    rel='stylesheet'>
+
 </head>
 <body>
    
@@ -45,33 +49,33 @@ include 'components/wishlist_cart.php';
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-1.png" alt="">
+            <img src="./images/apple-watch.png"  alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest smartphones</h3>
+            <span>Upto 20% off on</span>
+            <h3>Apple Watch</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-2.png" alt="">
+            <img src="./images/okhaar-watch.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest watches</h3>
+            <span>Upto 50% off on</span>
+            <h3>Okhaar watches</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-3.png" alt="">
+            <img src="./images/titan-watch.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest headsets</h3>
+            <span>Upto 25% off on</span>
+            <h3>Latest Titan Watches</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
       </div>
@@ -95,43 +99,36 @@ include 'components/wishlist_cart.php';
    <div class="swiper-wrapper">
 
    <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/icon-1.png" alt="">
-      <h3>laptop</h3>
+      <img src="./images/rolex-logo.png" alt="Rolex Logo">
    </a>
 
    <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/icon-2.png" alt="">
-      <h3>tv</h3>
+      <img src="./images/okhaar-logo.png" alt="Okhaar Logo">
    </a>
 
    <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
-      <h3>camera</h3>
+      <img src="./images/titan-logo.svg" alt="Titan Logo">
    </a>
 
    <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
-      <h3>mouse</h3>
+      <img src="./images/omega-logo.png" alt="Omega Logo">
    </a>
 
    <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
-      <h3>fridge</h3>
+      <img src="./images/seiko-logo.png" alt="Seiko Logo">
    </a>
 
    <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="">
-      <h3>washing machine</h3>
+      <img src="./images/apple-logo.png" alt="Apple Logo">
+      
    </a>
 
    <a href="category.php?category=smartphone" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="">
-      <h3>smartphone</h3>
+      <img src="./images/mi-logo.png" alt="Mi logo">
    </a>
 
    <a href="category.php?category=watch" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="">
-      <h3>watch</h3>
+      <img src="./images/amazefit-logo.webp" alt="Amazefit Logo">
    </a>
 
    </div>
@@ -195,6 +192,8 @@ include 'components/wishlist_cart.php';
 
 
 <?php include 'components/footer.php'; ?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 

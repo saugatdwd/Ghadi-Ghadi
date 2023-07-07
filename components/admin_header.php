@@ -17,14 +17,30 @@
 
       <a href="../admin/dashboard.php" class="logo">Admin<span>Panel</span></a>
 
-      <nav class="navbar">
-         <a href="../admin/dashboard.php">home</a>
-         <a href="../admin/products.php">products</a>
-         <a href="../admin/placed_orders.php">orders</a>
-         <a href="../admin/admin_accounts.php">admins</a>
-         <a href="../admin/users_accounts.php">users</a>
-         <a href="../admin/messages.php">messages</a>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.php">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.php">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orders.php">Orders</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>

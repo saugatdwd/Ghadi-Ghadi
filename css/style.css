@@ -233,7 +233,7 @@ section{
 }
 
 .home-bg{
-   background:url(../images/home-bg.png) no-repeat;
+   background: url(../images/home-bg.jpg) no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -264,14 +264,23 @@ section{
 
 .home-bg .home .slide .content span{
    font-size: 2rem;
-   color:var(--white);
+   color:var(--black);
 }
 
 .home-bg .home .slide .content h3{
    margin-top: 1rem;
    font-size: 4rem;
-   color:var(--white);
+   color:var(--black);
    text-transform: uppercase;
+}
+
+.content a{
+   border: 1px solid black;
+}
+
+.content a:hover {
+   border: 1px solid black;
+   box-shadow: 1px 1px 2px;
 }
 
 .home-bg .home .slide .content .btn{
