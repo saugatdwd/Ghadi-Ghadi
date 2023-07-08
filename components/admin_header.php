@@ -27,13 +27,13 @@
               <a class="nav-link active" href="home.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="shop.php">SHOP</a>
+              <a class="nav-link" href="shop.php">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.php">ABOUT</a>
+              <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">CONTACT</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="orders.php">Orders</a>
