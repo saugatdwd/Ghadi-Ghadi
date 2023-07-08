@@ -53,19 +53,18 @@ if(isset($_POST['submit'])){
    
 <?php include 'components/user_header.php'; ?>
 
-<section class="form-container">
+<section class="form-container mb-5">
 
    <form action="" method="post">
-      <h3>login now</h3>
-      <input type="email" name="email" required placeholder="enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="pass" required placeholder="enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="login now" class="btn" name="submit">
-      <p>don't have an account?</p>
-      <a href="user_register.php" class="option-btn">register now</a>
+      <h3>Login now</h3>
+      <input type="email" name="email" required placeholder="Please enter your email" maxlength="50"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="Please enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="login now" class="btn" name="Submit">
+      <p>Don't have an account?</p>
+      <a href="user_register.php" class="option-btn">Register now</a>
    </form>
 
 </section>
-
 
 
 

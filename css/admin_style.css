@@ -84,11 +84,11 @@ section{
 }
 
 .btn{
-   background-color: var(--main-color);
+   background-color: rgb(1,77,147);
 }
 
 .option-btn{
-   background-color: var(--orange);
+   background-color: rgb(1,77,147) !important;
 }
 
 .delete-btn{
@@ -152,7 +152,6 @@ section{
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: orangered;
 }
 
 .form-container form{
@@ -164,7 +163,6 @@ section{
    width: 50rem;
    border:var(--border);
    border: none;
-   background-color:#2980b9;
 
 }
 
@@ -197,30 +195,34 @@ section{
 }
 
 .form-container form .btn{
-   background-color: #4b565e;
+   background-color: #4b565e !important;
    height: 40px;
    color: white;
    font-size:large;
 
 }
+
 .header{
    position: sticky;
    top:0; left:0; right:0;
-   background-color: var(--white);
    box-shadow: var(--box-shadow);
-   z-index: 1000;
+   z-index: 2000;
+   display: block;
+   background-color: rgb(1,77,147);
 }
+
 
 .header .flex{
    display: flex;
    align-items: center;
    justify-content: space-between;
    position: relative;
+   
 }
 
 .header .flex .logo{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--white);
 }
 
 .header .flex .logo span{
@@ -230,8 +232,10 @@ section{
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--black);
+   color:var(--white);
+
 }
+
 
 .header .flex .navbar a:hover{
    color:var(--main-color);
@@ -242,7 +246,7 @@ section{
    margin-left: 1.7rem;
    font-size: 2.5rem;
    cursor: pointer;
-   color:var(--black);
+   color:var(--white);
 }
 
 .header .flex .icons div:hover{
@@ -311,6 +315,12 @@ section{
    font-size: 1.7rem;
    color:var(--light-color);
    margin:1rem 0;
+}
+
+.dashboard .box-container .box .btn{
+   background-color: rgb(1,77,147);
+   color: white;
+   font-size: large;
 }
 
 .add-products form{
