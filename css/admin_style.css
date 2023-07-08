@@ -152,16 +152,20 @@ section{
    display: flex;
    align-items: center;
    justify-content: center;
+   background-color: orangered;
 }
 
 .form-container form{
    padding:2rem;
    text-align: center;
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
+   /* background-color: var(--white); */
    border-radius: .5rem;
    width: 50rem;
    border:var(--border);
+   border: none;
+   background-color:#2980b9;
+
 }
 
 .form-container form h3{
@@ -185,13 +189,20 @@ section{
 .form-container form .box{
    width: 100%;
    margin:1rem 0;
-   border-radius: .5rem;
+   border-radius: 1.2rem;
    background-color: var(--light-bg);
    padding:1.4rem;
    font-size: 1.8rem;
    color:var(--black);
 }
 
+.form-container form .btn{
+   background-color: #4b565e;
+   height: 40px;
+   color: white;
+   font-size:large;
+
+}
 .header{
    position: sticky;
    top:0; left:0; right:0;
