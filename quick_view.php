@@ -28,6 +28,8 @@ include 'components/wishlist_cart.php';
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
    
@@ -35,7 +37,7 @@ include 'components/wishlist_cart.php';
 
 <section class="quick-view">
 
-   <h1 class="heading">quick view</h1>
+   <h1 class="heading">Quick View</h1>
 
    <?php
      $pid = $_GET['pid'];
@@ -63,7 +65,7 @@ include 'components/wishlist_cart.php';
          <div class="content">
             <div class="name"><?= $fetch_product['name']; ?></div>
             <div class="flex">
-               <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
+               <div class="price"><span>Rs&nbsp;</span><?= $fetch_product['price']; ?><span>/-</span></div>
                <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
             </div>
             <div class="details"><?= $fetch_product['details']; ?></div>
@@ -99,5 +101,7 @@ include 'components/wishlist_cart.php';
 
 <script src="js/script.js"></script>
 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
