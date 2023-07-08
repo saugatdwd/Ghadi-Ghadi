@@ -98,36 +98,36 @@ include 'components/wishlist_cart.php';
 
    <div class="swiper-wrapper">
 
-   <a href="category.php?category=laptop" class="swiper-slide slide">
+   <a href="category.php?category=rolex" class="swiper-slide slide">
       <img src="./images/rolex-logo.png" alt="Rolex Logo">
    </a>
 
-   <a href="category.php?category=tv" class="swiper-slide slide">
+   <a href="category.php?category=okhaar" class="swiper-slide slide">
       <img src="./images/okhaar-logo.png" alt="Okhaar Logo">
    </a>
 
-   <a href="category.php?category=camera" class="swiper-slide slide">
+   <a href="category.php?category=titan" class="swiper-slide slide">
       <img src="./images/titan-logo.svg" alt="Titan Logo">
    </a>
 
-   <a href="category.php?category=mouse" class="swiper-slide slide">
+   <a href="category.php?category=omega" class="swiper-slide slide">
       <img src="./images/omega-logo.png" alt="Omega Logo">
    </a>
 
-   <a href="category.php?category=fridge" class="swiper-slide slide">
+   <a href="category.php?category=seiko" class="swiper-slide slide">
       <img src="./images/seiko-logo.png" alt="Seiko Logo">
    </a>
 
-   <a href="category.php?category=washing" class="swiper-slide slide">
+   <a href="category.php?category=apple" class="swiper-slide slide">
       <img src="./images/apple-logo.png" alt="Apple Logo">
       
    </a>
 
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
+   <a href="category.php?category=mi" class="swiper-slide slide">
       <img src="./images/mi-logo.png" alt="Mi logo">
    </a>
 
-   <a href="category.php?category=watch" class="swiper-slide slide">
+   <a href="category.php?category=amazefit" class="swiper-slide slide">
       <img src="./images/amazefit-logo.webp" alt="Amazefit Logo">
    </a>
 

@@ -60,6 +60,8 @@ if(isset($_POST['order'])){
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
    
@@ -92,55 +94,52 @@ if(isset($_POST['order'])){
       ?>
          <input type="hidden" name="total_products" value="<?= $total_products; ?>">
          <input type="hidden" name="total_price" value="<?= $grand_total; ?>" value="">
-         <div class="grand-total">grand total : <span>$<?= $grand_total; ?>/-</span></div>
+         <div class="grand-total">Grand Total : <span>$<?= $grand_total; ?>/-</span></div>
       </div>
 
-      <h3>place your orders</h3>
+      <h3>Place your orders</h3>
 
       <div class="flex">
          <div class="inputBox">
-            <span>your name :</span>
+            <span>Your Name :</span>
             <input type="text" name="name" placeholder="enter your name" class="box" maxlength="20" required>
          </div>
          <div class="inputBox">
-            <span>your number :</span>
+            <span>Your Number :</span>
             <input type="number" name="number" placeholder="enter your number" class="box" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false;" required>
          </div>
          <div class="inputBox">
-            <span>your email :</span>
+            <span>Your Email :</span>
             <input type="email" name="email" placeholder="enter your email" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>payment method :</span>
+            <span>Payment Method :</span>
             <select name="method" class="box" required>
                <option value="cash on delivery">cash on delivery</option>
-               <option value="credit card">credit card</option>
-               <option value="paytm">paytm</option>
-               <option value="paypal">paypal</option>
             </select>
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
+            <span>Address Line 01 :</span>
             <input type="text" name="flat" placeholder="e.g. flat number" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>address line 02 :</span>
+            <span>Address Line 02 :</span>
             <input type="text" name="street" placeholder="e.g. street name" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>city :</span>
+            <span>City :</span>
             <input type="text" name="city" placeholder="e.g. mumbai" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>state :</span>
+            <span>State :</span>
             <input type="text" name="state" placeholder="e.g. maharashtra" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>country :</span>
+            <span>Country :</span>
             <input type="text" name="country" placeholder="e.g. India" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
-            <span>pin code :</span>
+            <span>Pin code :</span>
             <input type="number" min="0" name="pin_code" placeholder="e.g. 123456" min="0" max="999999" onkeypress="if(this.value.length == 6) return false;" class="box" required>
          </div>
       </div>
