@@ -40,12 +40,13 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/about-img.webp" alt="">
       </div>
 
       <div class="content">
          <h3>About GhadiGhadi</h3>
          <p>GhadiGhadi was first founded in 2017, it has established itself as the premier resource from which to buy premium branded and original watches. We have many brands available Ferrari, Hugo Boss, Rolex, Omega, TAG Heuer and more..</p>
+
          <a href="contact.php" class="btn">contact us</a>
       </div>
 
@@ -55,7 +56,7 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
    
-   <h1 class="heading">client's reviews</h1>
+   <h1 class="heading">Client's reviews</h1>
 
    <div class="swiper reviews-slider">
 
